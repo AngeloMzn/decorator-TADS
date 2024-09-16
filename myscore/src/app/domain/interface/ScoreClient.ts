@@ -1,3 +1,3 @@
 export default interface ScoreClient {
-    score(cpf: string): number;
+    score(cpf: string): Promise<number | null>;
 }
